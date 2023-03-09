@@ -1,0 +1,139 @@
+header {
+    text-align: center;
+    background: url('https://y2w9c4y8.stackpathcdn.com/showimg_soh04_full.jpg');
+    background-size: 1000px 300px;
+    height: 300px;
+    color: #05f6fa;
+  }
+
+.title h1 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium';
+    border: 5px solid #05f6fa;
+    border-radius: 15px
+}
+.title img {
+    width: 140px;
+    height: 120px;
+    border: 5px solid white;
+    border-radius: 20px;
+  }
+ 
+ul {
+    padding: 30px;
+    background:  #05D5FA;
+    text-align: center;
+}
+  
+.nav li {
+    padding: 5px;
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium';
+  }
+
+  body{
+    background: linear-gradient(160deg, #1d1e22 60%, #393f4d 60%);
+  }
+  
+  #aboutme{
+    text-align: center;
+
+  }
+
+  #aboutme h2{
+    font-size: 40px;
+    color: #FAF9F6;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium';
+  }
+
+  #aboutme p{
+    font-size: 20px;
+    color: #05D5FA;
+    font-family: 'Franklin Gothic Medium';
+  }
+
+  blockquote {
+    font-style: italic;
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: bold;
+    color: #FAF9F6;
+    text-align: center;
+  }
+ 
+  blockquote:before {
+    content: "\201C";
+    font-size: 3em;
+    margin-right: 0.25em;
+    vertical-align: -0.1em;
+    display: inline-block;
+  }
+  
+  blockquote:after {
+    content: "\201D";
+    font-size: 3em;
+    vertical-align: -0.1em;
+    display: inline-block;
+  }
+
+  p#author{
+    font-style: italic;
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: bold;
+    color: #FAF9F6;
+    text-align: center;
+  }
+
+  #professional{
+    text-align: center;
+  }
+
+  #professional h2{
+    font-size: 40px;
+    color: #FAF9F6;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium';
+  }
+
+  #professional p{
+    font-size:20px;
+    color: #05D5FA;
+    font-family: 'Franklin Gothic Medium';
+  }
+
+  #personal{
+    text-align: center;
+  }
+
+  #personal h2{
+    font-size: 40px;
+    color: #FAF9F6;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium';
+  }
+
+  #personal p{
+    font-size:20px;
+    color: #05D5FA;
+    font-family: 'Franklin Gothic Medium';
+  }
+
+@media (max-width: 480px) {
+    .nav {
+      font-size: 30px;
+    }
+}
+
+@media (min-width: 1025px max-width: 1200px) {
+  #author {
+    font-size: 30px;
+  }
+}
