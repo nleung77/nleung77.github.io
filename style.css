@@ -9,7 +9,7 @@ header {
 .title h1 {
     font-size: 40px;
     font-weight: bold;
-    font-family: 'Franklin Gothic Medium';
+    font-family: 'Lilita One', cursive;
     border: 5px solid #05f6fa;
     border-radius: 15px
 }
@@ -31,7 +31,7 @@ ul {
     display: inline;
     font-size: 20px;
     font-weight: bold;
-    font-family: 'Franklin Gothic Medium';
+    font-family: 'Secular One', sans-serif;
   }
 
   body{
@@ -48,18 +48,18 @@ ul {
     color: #FAF9F6;
     font-style: italic;
     font-weight: bold;
-    font-family: 'Franklin Gothic Medium';
+    font-family: 'Secular One', sans-serif;
   }
 
   #aboutme p{
     font-size: 20px;
     color: #05D5FA;
-    font-family: 'Franklin Gothic Medium';
+    font-family: 'Secular One', sans-serif;
   }
 
   blockquote {
     font-style: italic;
-    font-family: cursive;
+    font-family: 'Bebas Neue', cursive;
     font-size: 30px;
     font-weight: bold;
     color: #FAF9F6;
@@ -83,7 +83,7 @@ ul {
 
   p#author{
     font-style: italic;
-    font-family: cursive;
+    font-family: 'Bebas Neue', cursive;
     font-size: 30px;
     font-weight: bold;
     color: #FAF9F6;
@@ -99,13 +99,13 @@ ul {
     color: #FAF9F6;
     font-style: italic;
     font-weight: bold;
-    font-family: 'Franklin Gothic Medium';
+    font-family: 'Secular One', sans-serif;
   }
 
   #professional p{
     font-size:20px;
     color: #05D5FA;
-    font-family: 'Franklin Gothic Medium';
+    font-family: 'Secular One', sans-serif;
   }
 
   #personal{
@@ -117,13 +117,13 @@ ul {
     color: #FAF9F6;
     font-style: italic;
     font-weight: bold;
-    font-family: 'Franklin Gothic Medium';
+    font-family: 'Secular One', sans-serif;
   }
 
   #personal p{
     font-size:20px;
     color: #05D5FA;
-    font-family: 'Franklin Gothic Medium';
+    font-family: 'Secular One', sans-serif;
   }
 
 @media (max-width: 480px) {
@@ -132,8 +132,12 @@ ul {
     }
 }
 
-@media (min-width: 1025px max-width: 1200px) {
+@media (min-width: 1025px) {
   #author {
     font-size: 30px;
   }
+}
+
+strong{
+  font-size: 25px
 }
